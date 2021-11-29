@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+
+
+  <div class="navbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="family.html">SlideShow Images</a>
+    <a href="travel.html">Travel</a>
+    <a href="website.html" > Mywebsite</a>
+
+    <a href="about.html" >Contact Me</a>
+  </div>
+
+<div class="header">
+  <div class="image-container">
+  <div class="texts">JOSHUA</div>
+</div>
+</div>
+
+<div class="row">
+  
+
+<!--myself -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="josh.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Hello World!</b></h1>
+      <h1 class="xlarge-font" style="color:rgb(7, 7, 7);"  ><b>I'm Joshua Garcia Santos</b></h1>
+      <button  onclick="typeWriter()" class="button" style="background-color:red">Click me to read more</button>
+      
+
+                                  <p id="click"></p>
+
+                                  <script>
+                                  var i = 0;
+                                  var txt = '4th year BS. Information technology Student of DHVSU STO. TOMAS and I live in San Jose, San Simon, Pampanga 22 years of age.';
+                                  var speed = 50;
+
+                                  function typeWriter() {
+                                    if (i < txt.length) {
+                                      document.getElementById("click").innerHTML += txt.charAt(i);
+                                      i++;
+                                      setTimeout(typeWriter, speed);
+                                    }
+                                  }
+                                  </script>
+    </div>
+  </div>
+</div>
+
+<!-- Ccollege -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="it.png" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+     
+      <h1  style="color:rgb(7, 7, 7);"  ><b>It's good to have a good teacher, but you always need a pretty good student. I was never a good student. I think there should be a good balance between being a good student and being able to enjoy your College life</b></h1>
+    
+    </div>
+  </div>
+</div>
+
+<!-- family -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="1.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1  style="color:rgb(7, 7, 7);"  ><b>I have two siblings my oldest Sister name is Ella Mae G. Santos. and im the middle.
+        then My Youngest sister name is katlene kaye G Santos she is 18 years old they have a son,  her son name is Conrad Angelo S. dejesus.  Father is Conrado Santos and My Mom is Leschelle Santos</b></h1>
+    </div>
+  </div>
+</div>
+ 
+</div>
+
+
+
+</body>
+</html>
